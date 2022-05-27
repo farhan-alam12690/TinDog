@@ -1,0 +1,206 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* headings  */
+
+.big-heading {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Sections  */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Navbar Section */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/* download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .container-fluid {
+    padding: 3% 11%;
+    text-align: left;
+}
+
+/* iphone image */
+
+.iphone-img {
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 25%;
+}
+
+.icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icons:hover {
+    color: #ff4c68;
+}
+
+/* features section */
+.feature-box {
+    padding: 5%;
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    line-height: 1.5;
+}
+
+/* testimonials section */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+/* pricing section */
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.solid-button {
+    color: #fff;
+    background-color: #ef8172;
+    border-color: #ef8172;
+}
+
+.solid-button:hover {
+    color: #fff;
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+
+.outline-button {
+    color: #ef8172;
+    border-color: #ef8172;
+}
+
+.outline-button:hover {
+    color: #fff;
+    background-color: #ff4c68;
+    border-color: #ff4c68;
+}
+
+
+/* footer  */
+
+.social-logo {
+    padding: 20px 10px;
+
+}
+
+/* tablet and phone section */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .big-heading {
+        font-size: 3rem;
+        font-weight: 900;
+        line-height: 1.5;
+    }
+
+    .section-heading {
+        font-size: 2.5rem;
+        line-height: 1.5;
+    }
+
+    .iphone-img {
+        position: static;
+        transform: rotate(0);
+
+    }
+}
